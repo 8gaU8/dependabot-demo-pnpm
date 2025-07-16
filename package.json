@@ -11,7 +11,7 @@
     "act:test": "act --container-architecture linux/amd64 -j build --artifact-server-path /tmp/artifacts"
   },
   "dependencies": {
-    "hot-formula-parser": "^3.0.0",
+    "hot-formula-parser": "^3.0.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "three": "0.54.0"
