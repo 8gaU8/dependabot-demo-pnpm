@@ -11,12 +11,14 @@
     "act:test": "act --container-architecture linux/amd64 -j build --artifact-server-path /tmp/artifacts"
   },
   "dependencies": {
+    "hot-formula-parser": "^3.0.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "three": "0.54.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",
+    "@types/hot-formula-parser": "^4.0.4",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "@types/three": "^0.178.1",

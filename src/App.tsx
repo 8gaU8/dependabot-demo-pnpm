@@ -4,7 +4,14 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import * as THREE from 'three'
 
+import { Parser } from 'hot-formula-parser'
+
 function App() {
+  const parser = new Parser();
+  const result = parser.parse('SUM(1, 2, 3)');
+  console.log('Formula result:', result.result);
+
+
   const [count, setCount] = useState(0)
   const color = new THREE.Color(0x00ff00)
 
