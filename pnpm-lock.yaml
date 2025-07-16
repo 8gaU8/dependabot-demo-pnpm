@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       hot-formula-parser:
-        specifier: ^3.0.2
-        version: 3.0.2
+        specifier: ^3.0.0
+        version: 3.0.0
       react:
         specifier: ^19.1.0
         version: 19.1.0
@@ -840,8 +840,8 @@ packages:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
     engines: {node: '>=8'}
 
-  hot-formula-parser@3.0.2:
-    resolution: {integrity: sha512-W/Dj/UbIyuViMIQOQD6tUEVySl7jd6ei+gfWslTiRqa4yRhkyHnIz8N4oLnqgDRhhVAQIcFF5NfNz49k4X8IxQ==}
+  hot-formula-parser@3.0.0:
+    resolution: {integrity: sha512-CHLTrsrv29it5XPcHalNO8ClcJGHefwf599MePlG5dYzxxtbPqx/qt8CkrqvxQeNA5XtkAUcxU62OFv0z2L49A==}
 
   ignore@5.3.2:
     resolution: {integrity: sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==}
@@ -1922,7 +1922,7 @@ snapshots:
 
   has-flag@4.0.0: {}
 
-  hot-formula-parser@3.0.2:
+  hot-formula-parser@3.0.0:
     dependencies:
       '@handsontable/formulajs': 2.0.2
       tiny-emitter: 2.1.0
