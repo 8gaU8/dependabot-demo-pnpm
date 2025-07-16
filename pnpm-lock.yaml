@@ -18,8 +18,8 @@ importers:
         specifier: ^19.1.0
         version: 19.1.0(react@19.1.0)
       three:
-        specifier: 0.54.0
-        version: 0.54.0
+        specifier: 0.137.0
+        version: 0.137.0
     devDependencies:
       '@eslint/js':
         specifier: ^9.30.1
@@ -1063,8 +1063,8 @@ packages:
     resolution: {integrity: sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==}
     engines: {node: '>=8'}
 
-  three@0.54.0:
-    resolution: {integrity: sha512-TZwXa5wC8y/Xw/jSXvDBtmIgLLiFGBNF21fY95RjR7BaGJLmNOtWbtMvZI8zzJWq9GH/eTRjOfPFf+XtqJKg6A==}
+  three@0.137.0:
+    resolution: {integrity: sha512-rzSDhia6cU35UCy6y+zEEws6vSgytfHqFMSaBvUcySgzwvDO6vETyswtSNi/+aVqJw8WLMwyT1mlQQ1T/dxxOA==}
 
   tiny-emitter@2.1.0:
     resolution: {integrity: sha512-NB6Dk1A9xgQPMoGqC5CVXn123gWyte215ONT5Pp5a0yt4nlEoO1ZWeCwpncaekPHXO60i47ihFnZPiRPjRMq4Q==}
@@ -2116,7 +2116,7 @@ snapshots:
     dependencies:
       has-flag: 4.0.0
 
-  three@0.54.0: {}
+  three@0.137.0: {}
 
   tiny-emitter@2.1.0: {}
 
